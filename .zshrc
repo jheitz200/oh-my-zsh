@@ -2,7 +2,7 @@
 export ZSH=$HOME/.oh-my-zsh
 
 # Set the history size to 5,000
-export HISTSIZE=5000
+export HISTSIZE=10000
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -85,3 +85,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias hg='find ~/bash_perm_hist/* -name "*" | xargs grep --no-filename $*'
+alias bip='bundle install --path vendor/bundle --local'
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+
+export MRXERRORD=I/tmp/mrx_failed
+export MRXUSER=jheitz200
+export MRXHOSTFILE=/Users/jheitz200/mrx_hostlist
