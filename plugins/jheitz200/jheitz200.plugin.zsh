@@ -1,7 +1,6 @@
 ### Set env variables
-export GOPATH="/Users/jheitz200/code/go"
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:/usr/local/go/bin:$GOPATH/bin:$HOME/code/go/src/github.com/jheitz200/traffic_control/traffic_ops/app/local/bin:$PATH"
-export PERL5LIB=/Users/jheitz200/code/go/src/github.com/jheitz200/misc/traffic_ops_extensions/lib:/Users/jheitz200/code/go/src/github.com/jheitz200/traffic_control/traffic_ops/app/lib:/Users/jheitz200/code/go/src/github.com/jheitz200/traffic_control/traffic_ops/app/local/lib/perl5
+export GOPATH="/Users/jheitz200/go"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:/usr/local/go/bin:$GOPATH/bin:$PATH"
 export PGDATA=/usr/local/var/postgres
 
 ### Set aliases

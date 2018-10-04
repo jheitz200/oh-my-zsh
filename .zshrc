@@ -4,6 +4,9 @@ export ZSH=$HOME/.oh-my-zsh
 # Set the history size to 5,000
 export HISTSIZE=10000
 
+# Set editor for TD log tool
+export EDITOR=vim
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -88,7 +91,7 @@ source $ZSH/oh-my-zsh.sh
 alias hg='find ~/bash_perm_hist/* -name "*" | xargs grep --no-filename $*'
 alias bip='bundle install --path vendor/bundle --local'
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH="$PATH:$HOME/.rvm/bin:/usr/local/kubebuilder/bin" # Add RVM to PATH for scripting
 
 
 export MRXERRORD=I/tmp/mrx_failed
